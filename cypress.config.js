@@ -1,8 +1,6 @@
-const { defineConfig } = require('cypress')
-
-module.exports = defineConfig({
+module.exports = {
   e2e: {
-    baseUrl: 'https://qa-challenge-rx.vercel.app/',
-    supportFile: false
-  }
-}) 
+    baseUrl: "https://qa-challenge-rx.vercel.app/",
+    supportFile: false,
+  },
+};
